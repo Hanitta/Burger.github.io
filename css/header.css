@@ -1,0 +1,28 @@
+.header {
+    background: #131415;
+}
+
+.header__container {
+    width: 1160px;
+    min-height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*
+.nav__list {
+    width: 340px;
+    display: flex;
+    flex-flow: column;
+  
+}*/
+
+.contacts {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end; 
+}
+
+.contacts__schedule-link:hover {
+    color: #ccc;
+}

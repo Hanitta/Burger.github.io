@@ -1,0 +1,116 @@
+.services-block {
+    background: #131415 url(../img/pattern.png) 100% 100% no-repeat;
+    margin-top: 50px;
+    background-size: cover;
+}
+
+.services__container {
+    /*height: 170px;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.services__description {
+    /*width: 640px;
+    height: 115px; 
+    margin-left: 150px;*/
+    margin: 25px;
+}
+
+
+.services__list {
+    display: inline-flex;
+    flex-flow: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.services__desc {
+    max-width: 261px;
+}
+
+.services__img-block {
+    max-width: 250px;
+    max-height: 155px;
+    object-fit: scale-down;
+    overflow: hidden;
+    border-radius: 2%;
+    position: relative;
+}
+
+.services__img {
+    /*max-width: 250px;
+    max-height: 155px;*/
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.services__img-block {
+    filter: grayscale(80%);
+}
+
+.services__img-block:hover {
+    filter: none;
+}
+
+.services__img-title {
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+    /*padding: 50%;*/
+}
+
+.services__item {
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.services__item:last-child {
+    margin-right: 0px;
+}
+
+/*-----------text in img---------*/
+.services__img-title {
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 0.72px;
+}
+
+.services__desc {
+    color: #221f1f;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.services__desc-text {
+    margin: 0;
+}
+.services__desc-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+/*-----------------------------------*/
+
+
+.services__title {
+    color: #221f1f;
+    font-family: inherit;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.47px;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+}

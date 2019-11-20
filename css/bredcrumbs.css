@@ -1,0 +1,12 @@
+.breadcrumbs {
+    margin-top: 45px;
+    min-width: 110px;
+}
+
+.bredcrumbs__item {
+    display: inline-flex;
+    
+}
+.bredcrumbs__link {
+    margin-right: 5px;
+}
